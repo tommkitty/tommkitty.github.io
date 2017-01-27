@@ -1,0 +1,257 @@
+/*<----------common---------->*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+body{
+  font: 14px/1.9 'Noto Sans JP', 'arial unicode ms';
+  font-weight: 300;
+  -webkit-text-size-adjust:100%;
+  overflow-x: hidden;
+  color: #000;
+  background: #FAEBD7;
+}
+
+h2{
+	font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+}				
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*-------------topview-------*/
+.topview{
+	height: 100vh;
+   
+}
+
+/*<------------header------------>*/
+#header{
+	position: relative;
+    width:100%;
+    height:600px;
+}
+
+#header img{
+    position:absolute;
+    left:50%;
+    width:1260px;
+    height: 600px;
+    margin-left:-640px;
+    padding-top: -80px;
+}
+
+
+.slogan{
+	position: absolute;
+    top: 400px;
+	right:100px;
+	-webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+	color: #FF1493;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.slogan h1{
+	font-size: 70px;
+	font-family: 'Meiryo UI';
+	margin-bottom: 20px;
+	font-weight:bold;
+}
+
+
+.slogan h2{
+	font-size: 20px;
+	font-weight:bold;
+	font-family: 'Meiryo UI';
+}
+
+.mainnav-title {
+    position: fixed;
+    width: 100%;
+    float: left;
+    margin-left: 80px;
+    line-height: 100px;
+    margin-top: -10px;
+    z-index: 999;
+    color:#FF1493;}
+
+
+.mainnav-list{
+	position: fixed;
+	z-index: 999;
+	top: 15px;
+	right: 0;
+	width: 100%;
+	text-align: right;
+	background: raba(0,0,0.5);
+	transition: .3s;
+	}
+
+
+.mainnav ul{
+	float: right;
+	list-style-type: none;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+	}
+
+.mainnav li {
+	width: 192px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+	}
+
+.mainnav li a {
+    font-size: 14px;
+    line-height: 50px;
+    transition: .3s 0s;
+	}
+
+.mainnav li a:hover{background: raba(0,0,0.3)}	
+
+
+/*-------main---------*/
+
+section h2{
+	font-size: 30px;
+	font-weight:bold;
+	text-align: center;
+	padding-top: 80px;
+}
+
+dt{
+	font-weight: bold;
+}
+
+/*sec01*/
+
+
+.Profile{
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+
+#sec01 img{
+    display: block;
+    width: 400px;
+    height: auto;
+    float: right;
+    padding-left: 50px;
+    margin-right: 50px;
+}
+/*sec02*/
+.Memories{
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 80px;
+
+}
+
+#sec02 img{
+    display: block;
+    width: 300px;
+    height: auto;
+    float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: 50px;
+}
+
+/*sec03*/
+
+.img-box{
+	float: left;
+	margin:-60px;
+	margin-top: 30px;
+
+}
+
+.img-box ul{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+    margin: 40px;
+	padding-left: 20px;
+	padding-bottom: 60px;
+
+}
+
+.img-box li{
+	font-size: 13px;
+	font-weight: normal;
+
+}
+
+
+/*sec04*/
+
+#sec04 h2{
+	clear: both;
+	margin-top: 50px;
+}
+
+.Instagram{
+	background-color: #E1306C;
+}
+
+.btn{
+   padding: 8px 24px;
+   color: white;
+   display: inline-block;
+   opacity: 0.8;
+   border-radius: 4px;
+   margin-left: 560px;
+   margin-top: 20px;
+}
+
+#sec04 a{
+	text-align: center;
+}
+
+
+/*<----------footer-------->*/
+
+#footer-bk {
+ background-color: #444;
+ width:100%;
+ height: 120px;
+ bottom: 0px;
+ padding: 10px;
+ margin-top: 20px;
+}
+
+#footer  {
+ border: 5px solid #FFF;
+ height: 50px;
+ width: 1000px;
+ margin: 0 auto;
+ font-family:verdana;
+}
+
+#footer p{
+	text-align: center;
+
+}
